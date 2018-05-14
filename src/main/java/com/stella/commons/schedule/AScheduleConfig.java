@@ -99,7 +99,7 @@ public abstract class AScheduleConfig {
      */
     protected CronTrigger createCronTrigger(Class<? extends AJob> clazz, String jobDetailName, String triggerName, String cronExpression) {
 
-        Validate.notNull(triggerName, "clazz must be specified");
+        Validate.notNull(clazz, "clazz must be specified");
         Validate.notBlank(triggerName, "triggerName must be specified");
         Validate.notBlank(jobDetailName, "jobDetailName must be specified");
         Validate.notBlank(cronExpression, "cronExpression must be specified");
