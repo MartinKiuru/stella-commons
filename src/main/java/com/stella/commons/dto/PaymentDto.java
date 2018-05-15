@@ -20,6 +20,7 @@ public class PaymentDto implements Serializable {
     private Coin coin;
     private String toAddress;
     private String txId;
+    private String stellaIncomingId;
     private BigDecimal amount;
     private Long blockNo;
     private Date createdTime;
