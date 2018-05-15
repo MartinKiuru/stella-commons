@@ -17,7 +17,7 @@ import java.math.BigDecimal;
 public class TokenPaymentDto {
 
     @NotNull
-    private TokenRateDto token_rate;
+    private TokenRateDto tokenRate;
     @NotNull
     private boolean isBounty;
     @NotNull
