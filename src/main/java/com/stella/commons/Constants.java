@@ -24,6 +24,15 @@ public interface Constants {
         };
     }
 
+    interface WalletGenerator {
+        interface UrlPaths {
+            interface Wallet {
+                String USER_ADDRESSES = "/wallet/addresses";
+                String DEPOSIT_ADDRESSES = "/wallet/deposit-addresses";
+            }
+        }
+    }
+
     interface BeanNames {
         String LITECOIN_SERVICE = "litecoinService";
         String BITCOIN_SERVICE = "bitcoinService";
