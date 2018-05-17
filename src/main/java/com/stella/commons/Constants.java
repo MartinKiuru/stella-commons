@@ -18,6 +18,9 @@ public interface Constants {
             interface Notification {
                 String CRYPTO_DEPOSIT = "/notification/crypto-deposit";
             }
+            interface User {
+                String STELLA_ADDRESS_BY_DEPOSIT = "/user/stella-addres";
+            }
         };
     }
 
