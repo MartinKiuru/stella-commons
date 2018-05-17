@@ -13,6 +13,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class UserAddressesDto implements Serializable {
 
+    private Long id;
     private String stellaAddress;
     private String stellaPublicKey;
     private String bitcoinAddress;
