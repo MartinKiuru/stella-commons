@@ -46,6 +46,7 @@ public abstract class AScheduleConfig {
     @Autowired
     private Environment environment;
 
+    public static final String CRON_EACH_15_SECONDS = "0/15 * * * * ?";
     public static final String CRON_EACH_MINUTE = "0 0/1 * * * ?";
     public static final String CRON_EACH_5_MINUTES = "0 0/5 * * * ?";
     public static final String CRON_EACH_10_MINUTE = "0 0/10 * * * ?";
