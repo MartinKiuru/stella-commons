@@ -22,6 +22,7 @@ public class PaymentDto implements Serializable {
     private String txId;
     private Long stellaIncomingId;
     private BigDecimal amount;
+    private BigDecimal stellaTokenAmount;
     private Long blockNo;
     private Date createdTime;
     private Set<PaymentInputDto> inputs;
