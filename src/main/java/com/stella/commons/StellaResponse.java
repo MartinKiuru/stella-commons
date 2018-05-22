@@ -18,7 +18,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StellaResponse<T> implements Serializable {
-    private Integer errorCode;
+    private ErrorCode errorCode;
     private List<String> messages;
     private T payload;
     @Builder.Default
@@ -38,6 +38,6 @@ public class StellaResponse<T> implements Serializable {
 
     @JsonIgnore
     public boolean isSuccess() {
-        return errorCode == null || errorCode == 0;
+        return errorCode == null;
     }
 }
