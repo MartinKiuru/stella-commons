@@ -22,6 +22,7 @@ public interface Constants {
                 String STELLA_ADDRESS_BY_DEPOSIT = "/user/stella-address";
                 String USER_CREATE = "/user/create";
                 String PASSWORD_FORGOT = "/user/password/forgot";
+                String PASSWORD_NEW = "/user/password/reset";
             }
         };
     }

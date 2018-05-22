@@ -31,7 +31,7 @@ public abstract class AbstractController {
     }
 
     protected <T> ResponseEntity<StellaResponse> createFailure(ErrorCode errorCode, HttpStatus httpStatus, String ... messages) {
-        StellaResponse failure = StellaResponse.builder()
+        StellaResponse<T> failure = StellaResponse.<T>builder()
             .errorCode(errorCode)
             .build();
 
