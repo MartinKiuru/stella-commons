@@ -4,5 +4,7 @@ public enum Coin {
     LTC,
     BTC,
     ETH,
-    XRP
+    XRP,
+    STELLA
 }
+
