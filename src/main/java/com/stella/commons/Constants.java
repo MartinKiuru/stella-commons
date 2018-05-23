@@ -17,6 +17,7 @@ public interface Constants {
         interface UrlPaths {
             interface Notification {
                 String CRYPTO_DEPOSIT = "/notification/crypto-deposit";
+                String MANUAL_TOKEN_TRANSFER = "/notification/manual-token-transfer";
             }
             interface User {
                 String STELLA_ADDRESS_BY_DEPOSIT = "/user/stella-address";
