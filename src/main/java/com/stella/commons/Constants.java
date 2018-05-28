@@ -21,7 +21,8 @@ public interface Constants {
             }
             interface User {
                 String STELLA_ADDRESS_BY_DEPOSIT = "/user/stella-address";
-                String USER_CREATE = "/user/create";
+                String USER_REGISTER = "/user/register";
+                String USER_CONFIRM_EMAIL = "/user/confirm-email";
                 String PASSWORD_FORGOT = "/user/password/forgot";
                 String PASSWORD_NEW = "/user/password/reset";
                 String USER_LIST = "/user/list";
