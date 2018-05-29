@@ -19,9 +19,9 @@ public class PaymentHistoryDto {
 
     private String depositToAddress;
 
-    private BigDecimal amount;
+    private BigDecimal depositAmount;
 
-    private Coin coin;
+    private Coin depositCoin;
 
     private LocalDateTime depositTime;
 
