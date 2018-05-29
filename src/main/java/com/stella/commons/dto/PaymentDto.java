@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.Set;
 
 @Data
@@ -24,7 +24,7 @@ public class PaymentDto implements Serializable {
     private BigDecimal amount;
     private BigDecimal stellaTokenAmount;
     private Long blockNo;
-    private Date createdTime;
+    private LocalDateTime createdTime;
     private Set<PaymentInputDto> inputs;
 
 }

@@ -1,0 +1,31 @@
+package com.stella.commons.dto;
+
+import com.stella.commons.Coin;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.math.BigDecimal;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class PaymentHistoryDto {
+    // Deposit
+    private String depositTx; //end-user address, where the deposit comes from
+
+    private String depositToAddress;
+
+    private BigDecimal amount;
+
+    private Coin coin;
+
+    //Distribution
+    private String distributionTx; //Ethereum distribution-related address
+
+    private String distributionToAddress; //Stella wallet
+
+    private BigDecimal distributionAmount;
+}
