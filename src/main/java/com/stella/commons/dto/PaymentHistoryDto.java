@@ -7,6 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 @Builder
@@ -22,10 +24,14 @@ public class PaymentHistoryDto {
 
     private Coin coin;
 
+    private LocalDateTime depositTime;
+
     //Distribution
     private String distributionTx; //Ethereum distribution-related address
 
     private String distributionToAddress; //Stella wallet
 
     private BigDecimal distributionAmount;
+
+    private LocalDateTime distributionTime;
 }
