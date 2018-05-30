@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Data
 @Builder
@@ -16,6 +16,6 @@ public class PaymentInputDto implements Serializable {
 
     private String fromAddress;
     private Long inputNo;
-    private Date createdTime;
+    private LocalDateTime createdTime;
 
 }
