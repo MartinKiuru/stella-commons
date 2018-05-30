@@ -27,6 +27,8 @@ public interface Constants {
                 String PASSWORD_NEW = "/user/password/reset";
                 String USER_LIST = "/user/list";
                 String USER_DETAIL = "/user/detail";
+                String USER_BALANCE = "/user/balance";
+                String USER_PAYMENTS = "/user/payments";
             }
         };
     }
