@@ -29,6 +29,7 @@ public interface Constants {
                 String USER_DETAIL = "/user/detail";
                 String USER_BALANCE = "/user/balance";
                 String USER_PAYMENTS = "/user/payments";
+                String USER_ADDRESSES = "/user/addresses";
             }
             interface Token {
                 String TOKEN_RATES = "/token/rates";
