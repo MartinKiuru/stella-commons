@@ -22,4 +22,5 @@ public class UserAddressesDto implements Serializable {
     private String rippleAddress;
     private String rippleTag;
     private String userEmail;
+
 }
