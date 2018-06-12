@@ -19,6 +19,7 @@ public class UserAddressesDto implements Serializable {
     private String bitcoinAddress;
     private String ethereumAddress;
     private String litecoinAddress;
+    private String rippleAddress;
     private String rippleTag;
     private String userEmail;
 }
